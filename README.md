@@ -11,7 +11,14 @@
 - Gazebo simulation
 
 ### Steps
-`Install everything in Navigation2 and TurtleBot3`
-```
-sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros2-humble-turtlebot3*
-```
+- Install Navigation2 and TurtleBot3
+    ```
+    sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-turtlebot3*
+    ```
+- Specify the TurtleBot3 model
+  Open bashrc via `gedit ~/.bashrc` and save it by adding this line
+  ```
+  export TURTLEBOT3_MODEL=waffle
+  ```
+  
+  
