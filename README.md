@@ -15,8 +15,7 @@
     ```
     sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-turtlebot3*
     ```
-- Specify the TurtleBot3 model
-  Open bashrc via `gedit ~/.bashrc` and save it by adding this line
+- Specify the TurtleBot3 model by opening bashrc via `gedit ~/.bashrc` and save it by adding this line
   ```
   export TURTLEBOT3_MODEL=waffle
   ```
