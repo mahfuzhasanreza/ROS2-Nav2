@@ -10,7 +10,7 @@
 - No need to buy any hardware
 - Gazebo simulation
 
-### Steps
+### Pre-requirement Steps
 - Install Navigation2 and TurtleBot3
     ```bash
     sudo apt install ros-humble-navigation2 ros-humble-nav2-bringup ros-humble-turtlebot3*
@@ -19,5 +19,12 @@
   ```bash
   export TURTLEBOT3_MODEL=waffle
   ```
-  
-  
+---------------------------
+
+### Following Steps
+1. Create `ros2_nav2_ws` folder, and go to the folder by `cd ros2_nav2_ws/`
+2. Create `src` folder, and go to the folder by `cd src`
+3. `ros2 pkg create --build-type ament_cmake --node-name my_node my_pkg`
+4. `cd my_pkg/`
+5. `code .`
+6. 
