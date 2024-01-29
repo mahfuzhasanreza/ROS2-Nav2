@@ -27,4 +27,7 @@
 3. `ros2 pkg create --build-type ament_cmake --node-name my_node my_pkg`
 4. `cd my_pkg/`
 5. `code .`
-6. 
+6. Create `urdf` folder, and make a file named `my_robot.urdf`
+7. Write the urdf code
+8. `ros2 launch urdf_tutorial display.launch.py model:=/home/mahfuz/ros2_nav2_ws/src/my_pkg/urdf/my_robot.urdf`
+9. `
