@@ -30,4 +30,3 @@
 6. Create `urdf` folder, and make a file named `my_robot.urdf`
 7. Write the urdf code
 8. `ros2 launch urdf_tutorial display.launch.py model:=/home/mahfuz/ros2_nav2_ws/src/my_pkg/urdf/my_robot.urdf`
-9. `
